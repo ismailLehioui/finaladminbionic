@@ -1,0 +1,51 @@
+/* login.css */
+.main-content {
+    background-color: #f4f6f9; /* Couleur de fond générale */
+  }
+  
+  .page-header {
+    background-image: url('./assets/img/curved-images/curved14.jpg'); /* Image de fond */
+    background-size: cover;
+    background-position: center;
+    min-height: 300px; /* Hauteur minimale */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .btn.bg-gradient-info {
+    background: linear-gradient(45deg, #00bcd4, #009688);
+    color: #ffffff;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .form-control {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .form-check-input:checked {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+  }
+  
